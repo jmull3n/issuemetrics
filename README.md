@@ -63,7 +63,7 @@ curl -X POST -H "Content-Type: application/json" \
     localhost:8000/github | jq .
 ```
 
-Navigate to `localhost:8000/metrics` to view the prometheus metrics that have been instrumented to get an intial understanding of how the service behaves during usage.
+Navigate to `localhost:8083/metrics` to view the prometheus metrics that have been instrumented to get an intial understanding of how the service behaves during usage.
 
 ---
 # Architecture
